@@ -1,4 +1,76 @@
-.App {
+body {
+            font-family: Arial, sans-serif;
+            background-color: #D3A29D;
+            padding: 20px;
+}
+
+.addingBtn {
+  margin-left: 15%;
+  width: 70%;
+  height: 50px;
+  border: #BDD1C5 3px dashed;
+  background: #A36361;
+  color: #EECC8C;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.addingInp {
+  margin-left: 13%;
+  width: 70%;
+  height: 25px;
+  border: #BDD1C5 3px dashed;
+  background: #A36361;
+  color: #EECC8C;
+  border-radius: 25px;
+  font-family: "Times New Roman";
+  padding: 2%;
+  margin-top: 25px;
+}
+
+.addingInp:focus {
+  outline: none;
+  text-align: center;
+  padding: 2%;
+}
+
+.styled-list {
+            list-style-type: none;
+            padding: 0;
+            border: 2px solid #BDD1C5;
+            border-radius: 10px;
+            background-color: #E8B298;
+            max-width: 400px;
+            margin: auto;
+}
+
+.styled-list li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+}
+
+.styled-list li:last-child {
+            border-bottom: none;
+}
+
+.delete-icon {
+            color: #ff4d4d;
+            cursor: pointer;
+            font-size: 16px;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+h1 {
+  text-align: center;
+}
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +108,8 @@
     transform: rotate(360deg);
   }
 }
+
+.colored {
+	color: red;
+}
+*/
