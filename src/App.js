@@ -73,7 +73,7 @@ function checking(index) {
     }, []);
 
 	return(
-		<div>
+		<div className="mainDiv">
 	<h1>To do list react-app</h1>
 	{
 		 isLists && <ul className="styled-list">

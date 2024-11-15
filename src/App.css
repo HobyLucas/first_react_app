@@ -4,6 +4,11 @@ body {
             padding: 20px;
 }
 
+.mainDiv {
+            width: 60%;
+            margin: auto;
+}
+
 .addingBtn {
   margin-left: 15%;
   width: 70%;
@@ -13,6 +18,7 @@ body {
   color: #EECC8C;
   border-radius: 25px;
   margin-top: 25px;
+            font-size: larger;
 }
 
 .addingInp {
@@ -26,6 +32,7 @@ body {
   font-family: "Times New Roman";
   padding: 2%;
   margin-top: 25px;
+            font-size: larger;
 }
 
 .addingInp:focus {
@@ -70,6 +77,38 @@ body {
 h1 {
   text-align: center;
 }
+
+@media screen and (max-width:500px) {
+            .mainDiv{
+                        width: 100%;
+            }
+            
+            .addingBtn {
+  margin-left: 15%;
+  width: 70%;
+  height: 50px;
+  border: #BDD1C5 3px dashed;
+  background: #A36361;
+  color: #EECC8C;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.addingInp {
+  margin-left: 13%;
+  width: 70%;
+  height: 25px;
+  border: #BDD1C5 3px dashed;
+  background: #A36361;
+  color: #EECC8C;
+  border-radius: 25px;
+  font-family: "Times New Roman";
+  padding: 2%;
+  margin-top: 25px;
+}
+
+}
+
 /*.App {
   text-align: center;
 }
